@@ -12,25 +12,26 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Local CSS -->
         <link rel="stylesheet" href="Assets/CSS/style.css">
     </head>
 
     <body>
 
         <!-- this is the container -->
-        <div class="container">
+        <div id="white-back" class="container">
 
             <!-- row for nav bar and header -->
             <div class="row">
 
                 <!-- column for header -->
-                <div class="column-md-6 d-flex justify-content-start">
+                <div class="col-md-6 d-flex justify-content-start">
                     <h1><span class="badge badge-info">Contact</span></h1>
                 </div>
 
                 <!-- column for 'nav bar' -->
-                <div class="column-md-6">
-                    <ul class="nav justify-content-end">
+                <div class="col-md-6">
+                    <ul class="nav d-flex justify-content-end">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">About Me</a>
                         </li>
@@ -45,7 +46,31 @@
             </div>
         </div>
 
-
+        <!-- Section for forms -->
+        <div id="white-back" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form>
+                        <div class="form-group">
+                          <label for="formGroupExampleInput">Email</label>
+                          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                        </div>
+                        <div class="form-group">
+                          <label for="formGroupExampleInput2">Name</label>
+                          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+                        </div>
+                        <!-- <div class="form-group">
+                          <label for="formGroupExampleInput2">Comment</label>
+                          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+                        </div> -->
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
 
         <!-- Optional JavaScript -->
