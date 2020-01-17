@@ -1,7 +1,24 @@
 body {
     background-image: url(../Pictures/background.png);
+
 }
 
 #white-back {
     background-color: white;
+}
+
+#header {
+    height: 100%;
+    border-radius: 0%;
+}
+
+#banner {
+    background-color: white;
+    border-bottom: 2px;
+    margin-bottom: 30px;
+}
+
+#bot-line {
+    border-color: grey;
+    border: 0px 5px solid;
 }
